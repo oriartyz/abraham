@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+
+	<link rel="stylesheet" href="portfolio-css/header.css">
+	<link rel="stylesheet" href="portfolio-css/projects.css">
+	<link rel="stylesheet" href="portfolio-css/styles.css">
+
+	<!-- fontawesome file -->
+	<link rel="stylesheet" href="css/all.css">
+	<script src="index.js" defer></script>
+	<!-- <script src="https://kit.fontawesome.com/086ab87877.js" crossorigin="anonymous"></script> -->
+	<!-- roboto font from google -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<div class="portfolio-container">
+		<header>
+			<nav class="navbar">
+				<p><a href="#">abraham.akandji</a></p>
+				<a href="#dead-link" class="toggle-button">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</a>
+				<ul class="nav-menu">
+					<li><a href="#projects-anchor">.portfolio</a></li>
+					<li><a href="#about-anchor">.compétences</a></li>
+					<li><a href="#contact-anchor">.contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section id="landing-front" class="flex-1">
+
+				<div class="flex-half landing-info">
+					<p class="landing-title">Bonjour, je me prénomme Abraham &#x270C;</p>
+					<p class="landing-title">Je suis <span class="blue-text">&#60;&#47;Data Analyst&gt;</span></p>
+					<p class="lightgray-text">Je suis actuellement en train d'obtenir ma licence 3 pro en datamining, une passion qui me permet de combiner mes compétences en analyse de données et en programmation Python. 
+						Ayant une expérience en apprentissage automatique et technologies différents. Je suis toujours à la recherche de nouveaux défis à relever.
+					</p>
+					<div class="contact-socials">
+						<a href="https://github.com/oriartyz" target="_blank"><i class="fa-brands fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/ngoueya/" target="_blank"><i
+								class="fa-brands fa-linkedin"></i></a>
+					</div>
+				</div>
+
+
+				<div class="landing-img-wrapper">
+					<img src="project-imgages/hero-character.png" alt="landing logo of person">
+				</div>
+
+			</section>
+
+			<a class="anchor" id="projects-anchor"></a>
+
+			<section id="projects">
+
+				<p class="text-heading blue-text">&#60;Portfolio&#62;</p>
+
+				<div id="ecom" class="flex-1">
+					<a class="proj-img-container bg-ecom flex-half"
+						href="https://github.com/oriartyz/premere-league-data-analysis" target="_blank">
+						<img src="project-imgages/premiere league.png" alt="">
+					</a>
+					<div class="flex-half">
+						<div class="project-text">
+							<p>Premere league analysis</p>
+							<p class="description">Le projet d'analyse de données de première league vise à identifier 
+								les meilleurs scoreurs de la ligue pour les proposer au client. 
+								Pour ce faire, les données sur les performances des joueurs sont collectées, analysées et comparées. 
+								En utilisant des méthodes statistiques et des algorithmes de machine learning,</p>
+							<div class="tech-stack">Réalisé avec: Python, Excel, Pandas, Numpy, Seaborn</div>
+						</div>
+						<div class="project-btns">
+							<a href="https://github.com/oriartyz/premere-league-data-analysis" target="_blank">
+								Demo
+							</a>
+							<a href="https://github.com/oriartyz/premere-league-data-analysis" target="_blank">
+								Code
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div id="my-anime-app" class="flex-2">
+					<a class="proj-img-container bg-animeapp flex-half" href="https://github.com/oriartyz/amazon_scrapper"
+						target="_blank">
+						<img src="project-imgages/maquette_amz.png" alt="">
+					</a>
+					<div class="flex-half">
+						<div class="project-text">
+							<p>Amazon scrapper</p>
+							<p class="description"> Amazon scrapper est une application web de scrapping de produits Amazon. 
+								Elle permet de collecter et d'extraire les informations sur les produits disponibles sur Amazon, 
+								telles que le titre, le prix, la description, les images.</p>
+							<div class="tech-stack">Réalisé avec: Python, Selenium, <a href="https://flask.palletsprojects.com/en/2.2.x/" target="_blank">Flask</a>
+							</div>
+						</div>
+						<div class="project-btns">
+							<a href="https://github.com/oriartyz/amazon_scrapper/blob/main/final_result.PNG" target="_blank">
+								Demo
+							</a>
+							<a href="https://github.com/oriartyz/amazon_scrapper" target="_blank">
+								Code
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div id="imc" class="flex-1">
+					<a class="proj-img-container bg-recipe flex-half" href="https://imc-calculatrice.netlify.app/"
+						target="_blank">
+						<img src="project-imgages/imc.png" alt="">
+					</a>
+					<div class="flex-half">
+						<div class="project-text">
+							<p>Calculateur d'IMC</p>
+							<p class="description">
+
+								Le projet de calculateur d'IMC en JavaScript permet de calculer l'indice de masse corporelle d'un individu en utilisant sa taille et son poids. 
+								Le projet utilise un formulaire interactif pour collecter les informations nécessaires à partir de l'utilisateur. 
+								Une fois les données entrées, le script JavaScript calcule l'IMC et affiche le résultat ainsi que la classification de l'IMC en utilisant des critères standardisés.
+							</p>
+							<div class="tech-stack">Réalisé avec: HTML, CSS, JavaScript</div>
+						</div>
+						<div class="project-btns">
+							<a href="https://imc-calculatrice.netlify.app/" target="_blank">
+								Demo
+							</a>
+							<a href="https://github.com/oriartyz/body_mass_index" target="_blank">
+								Code
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div id="portfolio" class="flex-2">
+					<a class="proj-img-container bg-portfolio flex-half" href="https://kyoto-tour.netlify.app/"
+						target="_blank">
+						<img src="project-imgages\kyoto.jpg" alt="">
+					</a>
+					<div class="flex-half">
+						<div class="project-text">
+							<p>Kyoto Discovery</p>
+							<p class="description">Kyoto discovery est un site page vitrine de la ville de kyoto. 
+								Ce site présente aux visiteurs les activités et loisirs disponibles à Kyoto et trois pack de découvert.
+							
+							
+							</p>
+							<div class="tech-stack">Réalisé avec: HTML, CSS, JavaScript</div>
+						</div>
+						<div class="project-btns">
+							<a href="https://kyoto-tour.netlify.app/" target="_blank">
+								Demo
+							</a>
+							<a href="https://github.com/oriartyz/kyoto_discovery" target="_blank">
+								Code
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div id="yt-clone" class="flex-1">
+					<a class="proj-img-container bg-youtube flex-half" href="https://github.com/oriartyz/iris-ml-app"
+						target="_blank">
+						<img src="project-imgages/iris_ml_app.png" alt="">
+					</a>
+					<div class="flex-half">
+						<div class="project-text">
+							<p>Iris prédiction app</p>
+							<p class="description">
+								
+								L'application de prédiction des types de fleur d'Iris utilise un algorithme de machine learning pour prédire 
+								le type de fleur en fonction des entrées de l'utilisateur. 
+								L'utilisateur peut entrer les mesures de longueur et de largeur des pétales et des sépales de la fleur d'Iris et 
+								l'application utilise ces données pour effectuer une prédiction en utilisant un modèle formé sur des données d'entraînement.
+								 Le résultat de la prédiction est retourné sous forme de type de fleur prédit avec une probabilité associée, 
+								permettant à l'utilisateur de comprendre la confiance du modèle dans sa prédiction.
+							
+							
+							</p>
+							<div class="tech-stack">Réalisé avec: Python, Streamlit, Sklearn, RandomForestClassifier </div>
+						</div>
+						<div class="project-btns">
+							<a href="https://github.com/oriartyz/iris-ml-app/blob/main/README.md" target="_blank">
+								Demo
+							</a>
+							<a href="https://github.com/oriartyz/iris-ml-app" target="_blank">
+								Code
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div id="my-anime-app" class="flex-2">
+					<a class="proj-img-container bg-animeapp flex-half" href="https://github.com/oriartyz/amazon_scrapper"
+						target="_blank">
+						<img src="project-imgages/s&p500.png" alt="">
+					</a>
+					<div class="flex-half">
+						<div class="project-text">
+							<p>SP500 app</p>
+							<p class="description">
+								
+								
+								L'application S&P 500 permet d'afficher les données sur les entreprises du S&P 500. 
+								L'utilisateur peut filtrer les entreprises en fonction du secteur et visualiser 
+								les prix de clôture des actions sélectionnées en utilisant une API yfinance. 
+								Les données peuvent être téléchargées sous forme de fichier CSV.
+							
+							</p>
+							<div class="tech-stack">Réalisé avec: Python streamlit, Pandas, Numpy, Matplotlib, Seaborn et yfinance</div>
+						</div>
+						<div class="project-btns">
+							<a href="https://github.com/oriartyz/sp500-app/blob/main/visuel_app.png" target="_blank">
+								Demo
+							</a>
+							<a href="https://github.com/oriartyz/sp500-app" target="_blank">
+								Code
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+
+
+
+			<a class="anchor" id="about-anchor"></a>
+
+			<div id="about">
+				<div class="flex-1">
+					<div class="flex-half about-story">
+						<p class="text-heading blue-text">&#60;Compétences&#62;</p>
+						<p class="text-heading">Outils et langages</p>
+						<p class="lightgray-text"> 
+						Je travaille principalement avec les données et me consacre constamment à les explorer pour en tirer des insights précieux. Du processus de collecte de données à l'analyse et à la présentation de résultats pertinents. 
+						Familiarisé avec les outils et les techniques, tels que Python, R, SQL, SAS et les algorithmes d'apprentissage automatique de Skikit-Learn et TensorFlow.  
+						Ce sont quelques-unes des technologies que j'ai utilisées. mais je suis toujours prêt à apprendre de nouvelles choses pour m'améliorer.
+						</p>
+					</div>
+					<div class="flex-half">
+						<div class="skills-logos">
+							<p><i class="fa-brands fa-python"></i>Python</p>
+							<p><i class="fa-brands fa-r-project"></i>R</p>
+							<p><i class="fa-brands fa-java"></i> JAVA</p>
+							<p><i class="fa-brands fa-css3-alt"></i>CSS</p>
+							<p><i class="fa-brands fa-git-alt"></i>JavaScript</p>
+							<p><i class="fa-brands fa-github"></i>Github</p>
+							<p><i class="fa-sharp fa-solid fa-database"></i>Power BI</p>
+							<p><i class="fa-solid fa-database"></i>SQL</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<a class="anchor" id="contact-anchor"></a>
+
+			<section id="contact" class="flex-1">
+
+				<div class="contact-message flex-half">
+					<p class="text-heading blue-text">&#60;Contact&#62;</p>
+					<p class="text-heading">Rentrons en contact</p>
+					<p class="lightgray-text">
+						Vous avez des questions ? N'hésitez pas à m'envoyer un e-mail et je vous répondrai dès que possible!
+					</p>
+					<p class="lightgray-text"><a class="mail-link"
+							href="mailto:abrahamakanji@gmail.com?subject=Bonjour! Rentrons en contact">Cliquez ici pour envoyer un email</a> ou consulter mes réseaux sociaux ci-dessous.</p>
+					<div class="contact-socials">
+						<p class="lightgray-text">// quelques réseaux sociaux</p>
+						<a href="https://github.com/oriartyz" target="_blank"><i class="fa-brands fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/ngoueya/" target="_blank"><i
+								class="fa-brands fa-linkedin"></i></a>
+					</div>
+				</div>
+
+				<form class="flex-half" action="https://formsubmit.co/86fdedbab1b51628fb1733ec34faa591" method="POST"
+					target="_blank">
+					<label for="name">Nom</label>
+					<input type="text" id="name" name="name" placeholder="Saisissez votre nom" required>
+					<label for="email">E-mail</label>
+					<input type="email" id="email" name="email" placeholder="Saisissez votre e-mail" required>
+					<label for="message">Message</label>
+					<textarea id="message" name="body" id="" cols="30" rows="5" placeholder="Votre message"
+						required></textarea>
+					<button type="submit">envoyer</button>
+				</form>
+
+
+			</section>
+			
+		</main>
+
+		<!-- <hr> -->
+		<footer>
+			<p>Copyright &copy 2023 Abraham Akandji. Tout Droits réservés</p>
+		</footer>
+	</div>
+</body>
+
+</html>
