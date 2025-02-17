@@ -77,3 +77,20 @@ nav li:hover {
   border-radius: 10px;
 }
 
+nav li button {
+  display: block;
+  text-decoration: none;
+  color: #F9F6EE;
+  padding: 10px 1rem;
+  background: none;
+  border: none;
+  font-size: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+nav li button:hover {
+  background-color: var(--blue-accent);
+}
+
