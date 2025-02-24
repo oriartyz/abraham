@@ -7,10 +7,13 @@ header {
   font-size: 1.7rem;
 	padding: 0 60px;
   z-index: 100;
-  background-color: var(--secondary-color);
+  background-color: #000000;
   box-shadow: 0 0 10px rgba(128, 128, 128, 0.363);
 	line-height: 70px;
   font-weight: bold;
+}
+.dark-theme header {
+  background-color: #121212;
 }
 nav {
   display: flex;

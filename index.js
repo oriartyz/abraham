@@ -14,11 +14,11 @@ const colorThemeBtn = document.getElementById('color-theme');
 // Simplification de la gestion du thème
 const theme = localStorage.getItem("theme") || "Light";
 document.body.classList.toggle("dark-theme", theme === "Dark");
-colorThemeBtn.innerHTML = theme === "Dark" ? "Light Mode" : "Dark Mode";
+colorThemeBtn.innerHTML = theme === "Dark" ? ".light mode" : ".dark mode";
 
 colorThemeBtn.addEventListener('click', () => {
   const isDark = document.body.classList.toggle("dark-theme");
   const newTheme = isDark ? "Dark" : "Light";
-  colorThemeBtn.innerHTML = isDark ? "Light Mode" : "Dark Mode";
+  colorThemeBtn.innerHTML = isDark ? ".light mode" : ".dark mode";
   localStorage.setItem("theme", newTheme);
 });
