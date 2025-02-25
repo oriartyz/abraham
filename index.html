@@ -44,15 +44,22 @@
 			<section id="landing-front" class="flex-1">
 
 				<div class="flex-half landing-info">
-					<p class="landing-title">Bonjour, je me prénomme Abraham &#x270C;</p>
-					<p class="landing-title">Je suis <span class="blue-text">&#60;&#47;Data Analyst&gt;</span></p>
-					<p class="lightgray-text">Je suis actuellement en train d'obtenir ma licence 3 pro en datamining, une passion qui me permet de combiner mes compétences en analyse de données et en programmation Python. 
-						Ayant une expérience en apprentissage automatique et technologies différents. Je suis toujours à la recherche de nouveaux défis à relever.
-					</p>
+					<div class="intro-block">
+						<p class="landing-title">Hello 👋, je me prénomme Abraham</p>
+						<p class="landing-title">Je suis <span class="blue-text">&#60;&#47;Apprenti Ingénieur Big Data chez Orange Data-IA &#62;</span></p>
+					</div>
+					
+					<div class="description-container">
+						<p class="lightgray-text">Actuellement en Master 2 en Intelligence Artificielle et Big Data à l'ESIEE-IT, je renforce mes compétences en automatisation, gestion de données et apprentissage automatique, appliqués à divers cas d'usage, notamment les systèmes distribués.</p>
+						
+						<p class="lightgray-text">💡 Ayant un attrait pour l'innovation et les défis techniques, j'expérimente à ma manière sur des projets mêlant data et IA.</p>
+						
+						<p class="lightgray-text">💬 Ouvert aux discussions & opportunités !</p>
+					</div>
+
 					<div class="contact-socials">
 						<a href="https://github.com/oriartyz" target="_blank"><i class="fa-brands fa-github"></i></a>
-						<a href="https://www.linkedin.com/in/ngoueya/" target="_blank"><i
-								class="fa-brands fa-linkedin"></i></a>
+						<a href="https://www.linkedin.com/in/ngoueya/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
 					</div>
 				</div>
 
@@ -306,9 +313,50 @@
 
 		<!-- <hr> -->
 		<footer>
-			<p>Copyright &copy 2023 Abraham Akandji. Tout Droits réservés</p>
+			<p>Copyright &copy 2025 Abraham Akandji. Tout Droits réservés</p>
 		</footer>
 	</div>
+
+	<style>
+		@media screen and (max-width: 480px) {
+			#landing-front {
+				padding: 0 20px;
+			}
+
+			.landing-title {
+				font-size: 1.8rem;
+				line-height: 1.3;
+			}
+
+			.description-container p {
+				font-size: 0.95rem;
+				margin-bottom: 1rem;
+			}
+
+			.landing-img-wrapper {
+				max-width: 65%;
+				margin-top: 1.5rem;
+			}
+
+			.contact-socials {
+				margin-top: 1rem;
+			}
+		}
+
+		@media screen and (max-width: 320px) {
+			#landing-front {
+				padding: 0 15px;
+			}
+
+			.landing-title {
+				font-size: 1.6rem;
+			}
+
+			.landing-img-wrapper {
+				max-width: 60%;
+			}
+		}
+	</style>
 </body>
 
 </html>
