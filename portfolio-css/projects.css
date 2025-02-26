@@ -34,6 +34,7 @@
 }
 .project-btns a:hover {
   background-color: var(--blue-accent);
+  color: var(--main-color); /* Added for better contrast */
 }
 .project-btns a:nth-child(2):hover {
 	color: var(--main-color);
@@ -60,7 +61,8 @@
 #projects .proj-img-container {
   width: 100%;
 	min-height: 200px;
-	height: 500px;
+	height: auto; /* Changed to auto for better responsiveness */
+  max-height: 500px; /* Added max-height to maintain aspect ratio */
 	position: relative;
 	overflow: hidden;
 	/* background-color: lightblue; */
